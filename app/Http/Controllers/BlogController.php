@@ -8,6 +8,7 @@ class BlogController extends Controller
 {
     //
     public function home(){
+        return view('tes');        
         return view('home');        
     }
     public function kontak(){
